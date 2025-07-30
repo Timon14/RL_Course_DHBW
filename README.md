@@ -8,7 +8,7 @@ Dieses Projekt implementiert einen Soft Actor-Critic (SAC) Agenten, um simuliert
 Training des **HalfCheetah-v5** Roboters, um eine robuste Laufbewegung zu erlernen.
 
 Mit folgendem Resultat:  
-![HalfCheetah Laufbewegung](cheetah.gif)
+![HalfCheetah Laufbewegung](images/cheetah.gif)
 
 ## Projektstruktur
 
@@ -91,10 +91,10 @@ Der Agent wird mit dem Adam-Optimierer für alle Netzwerke (Actor, Critic und Al
 
 **Trainingsmetriken:**
 - Lernkurve (Gesamtbelohnung pro Episode):  
-    ![Gesamtbelohnung pro Episode](reward.png)
-  
-- Verlustkurve (Actor- und Critic-Verlust):  
-    ![Verlustkurve](loss.png)
+    ![Gesamtbelohnung pro Episode](images/Reward.png)
+      
+    - Verlustkurve (Actor- und Critic-Verlust):  
+        ![Verlustkurve](images/Loss.png)
      * **Actor-Verlust über Trainingsschritte:** Veranschaulicht die Optimierung der Policy.
      * **Critic-Verlust über Trainingsschritte:** Zeigt die Konvergenz der Q-Wert-Schätzung.
      * **Alpha (Entropie-Koeffizient) über Trainingsschritte:** Demonstriert die dynamische Anpassung der Entropie-Regularisierung.
