@@ -16,6 +16,7 @@ Mit folgendem Resultat:
 - `requirements.txt`: Liste der notwendigen Python-Pakete.
 - `trained_sac_model`: Verzeichnis zum Speichern der trainierten HalfCheetah-Modelle (Actor-, Critic- und Alpha-Parameter).
 - `halfcheetah_environment_videos`: Verzeichnis, in dem Evaluationsvideos des trainierten Agenten gespeichert werden.
+- `images`: Verzeichnis, in dem Trainingsverlaufkurven gespeichert werden.
 
 ## Einrichtung
 
