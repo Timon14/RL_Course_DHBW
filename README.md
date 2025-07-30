@@ -94,7 +94,7 @@ Der Agent wird mit dem Adam-Optimierer für alle Netzwerke (Actor, Critic und Al
 - Lernkurve (Gesamtbelohnung pro Episode):  
     ![Gesamtbelohnung pro Episode](images/Reward.png)
       
-    - Verlustkurve (Actor- und Critic-Verlust):  
+- Verlustkurve (Actor- und Critic-Verlust):  
         ![Verlustkurve](images/Loss.png)
      * **Actor-Verlust über Trainingsschritte:** Veranschaulicht die Optimierung der Policy.
      * **Critic-Verlust über Trainingsschritte:** Zeigt die Konvergenz der Q-Wert-Schätzung.
